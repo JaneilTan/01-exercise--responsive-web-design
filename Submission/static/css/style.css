@@ -66,3 +66,18 @@ img {
     color: #fffffe;
   }
 }
+@media screen and (min-width: 64rem) {
+  .background {
+    background: #16161a;
+  }
+  .heading {
+    color: #fffffe;
+  }
+  .paragraph {
+    color: #94a1b2;
+  }
+  .button {
+    background: #7f5af0;
+  }
+  
+}
