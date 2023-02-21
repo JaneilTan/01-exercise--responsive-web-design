@@ -29,6 +29,8 @@ a:hover {
 
 /* Part A: Make the image responsive */
 img {
+  max-width: 100%;
+  height: auto;
   /* Put your responsive image CSS in here */
 }
 
