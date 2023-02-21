@@ -34,6 +34,7 @@ img {
   /* Put your responsive image CSS in here */
 }
 
+
 /* Default colour scheme */
 .background {
   background: #fffffe;
@@ -53,3 +54,15 @@ img {
 }
 
 /* Part B and C - Add colour schemes for tablet and desktop browsers below */
+@media screen and (min-width: 48rem) {
+  .background {
+    background: #fec7d7;
+  }
+  .heading, .paragraph {
+    color: #0e172c;
+  }
+  .button {
+    background: #0e172c;
+    color: #fffffe;
+  }
+}
